@@ -1,0 +1,9 @@
+/* import font style from google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
+/* apply for css */
+* {
+    
+
+    font-family: 'Work Sans', sans-serif;
+}
