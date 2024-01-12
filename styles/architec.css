@@ -1,9 +1,93 @@
+/* common shared style */
+
 /* import font style from google font */
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
+
 /* apply for css */
 * {
-    
+
 
     font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+    
+}
+
+/* header style */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* for vertically align */
+    align-items: center;
+}
+
+.nav-tittle {
+    color: #131313;
+
+    /* root font size=16px 
+   now i need  45 px 
+   we can use rem 
+   for counting we use 2.8rem=44.8px*/
+    font-size: 2.8rem;
+
+    font-weight: 700;
+
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+
+
+
+    font-size: 1rem;
+
+    font-weight: 500;
+
+
+
+}
+
+/* banner related style */
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    /* for more center */
+    margin: 0 auto;
+
+
+}
+
+.banner-tittle {
+    color: #131313;
+
+
+    font-size: 4rem;
+
+    font-weight: 700;
+
+}
+
+.banner-des {
+    color: #727272;
+
+
+    font-size: 1rem;
+
+    font-weight: 400;
 }
