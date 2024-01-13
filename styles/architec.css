@@ -155,7 +155,52 @@ main {
     font-weight: 700;
 
 }
-.facts-card-container{
+
+/* feature section style */
+.feature {
+    display: flex;
+    margin: 130px;
+    gap: 50px;
+}
+
+/* style for a only border left */
+.feature .section-tittle {
+
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+
+
+}
+
+
+.feature-content .card {
+    padding: 30px;
+    margin-bottom: 20px;
+
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* style for 10 year badge */
+.ten-years-badge {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 342px;
+    color: #FFF;
+    padding: 40px;
+}
+..ten-years-badge h2{
+    font-size: 4rem;
+}
+
+
+
+
+
+
+/* facts related style */
+.facts-card-container {
     display: flex;
     justify-content: space-around;
 }
@@ -167,29 +212,33 @@ main {
     padding: 30px;
 
 }
+
 .facts-card-container .card-stats {
     font-size: 2.8rem;
-    
+
     color: #424242;
     /* for reduce gap of two element */
     margin-top: 10px;
     margin-bottom: 10px;
 
 }
-.facts-card-container .card-tittle{
+
+.facts-card-container .card-tittle {
     font-weight: 600;
     font-size: 1.25rem;
     margin: 3px;
 }
+
 /* spomser section style */
-.sponser{
+.sponser {
     text-align: center;
 }
-.sponser-img{
+
+.sponser-img {
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
-    gap:20px;
+    gap: 20px;
     align-items: center;
 }
 
@@ -205,7 +254,9 @@ main {
     }
 
     nav,
-    .team-container,.facts-card-container,.sponser-img  {
+    .team-container,
+    .facts-card-container,
+    .sponser-img {
         flex-direction: column;
     }
 
@@ -217,16 +268,18 @@ main {
         font-size: 2rem;
     }
 
-    .team-content .facts-card-container  {
+    .team-content .facts-card-container {
         padding-left: 20px;
         padding-right: 20px;
 
 
     }
-    .facts-card-container{
-        gap:20px;
+
+    .facts-card-container {
+        gap: 20px;
     }
-    .sponser-img img{
+
+    .sponser-img img {
         width: 165px;
     }
 
@@ -237,7 +290,9 @@ main {
 
 /* medium devices */
 @media screen and(min-width:576px) and (max-width: 992px) {
-    nav,.sponser-img {
+
+    nav,
+    .sponser-img {
         flex-direction: column;
     }
 
